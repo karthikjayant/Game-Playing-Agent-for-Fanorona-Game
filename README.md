@@ -13,10 +13,10 @@ The table-driven approach simplifies decision-making by using a pre-defined tabl
 
 Percepts:
 
-Can Move (Percept 1): Identifies pieces that can move in the current state, checked by the get_pieces_that_have_free_space_around() function.
-Can Attack (Percept 2): Determines if any movable pieces can make an attacking move using the check_if_pieces_that_can_move_can_attack() function.
-Can Make Both Types of Attacks (Percept 3): Evaluated within the get_possible_moves_for_piece() function, determining possible moves including different attack types.
-Chance for Another Attack from New Position (Percept 4): Checked by the check_if_more_moves() function, which verifies if the moved piece has additional attacking options from its new position.
+* Can Move (Percept 1): Identifies pieces that can move in the current state, checked by the get_pieces_that_have_free_space_around() function.
+* Can Attack (Percept 2): Determines if any movable pieces can make an attacking move using the check_if_pieces_that_can_move_can_attack() function.
+* Can Make Both Types of Attacks (Percept 3): Evaluated within the get_possible_moves_for_piece() function, determining possible moves including different attack types.
+* Chance for Another Attack from New Position (Percept 4): Checked by the check_if_more_moves() function, which verifies if the moved piece has additional attacking options from its new position.
 
 Actions:
 
