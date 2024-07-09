@@ -1,6 +1,8 @@
 # Game-Playing-Agent-for-Fanorona-Game
 
 This project focuses on developing an AI agent for the traditional Malagasy board game Fanorona-Tsivy. Fanorona, a popular strategy game in Madagascar, involves capturing all the opponent's pieces on a 5x9 board. The AI agent utilizes two primary methodologies: a table-driven approach and the Minimax algorithm.
+![image](https://github.com/karthikjayant/Game-Playing-Agent-for-Fanorona-Game/assets/92135595/af45ded9-b6be-46aa-a20a-a88755a4bccc)
+
 
 # Problem Statement:
 
